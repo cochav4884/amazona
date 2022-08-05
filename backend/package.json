@@ -4,18 +4,25 @@
     "description": "# Lessons",
     "main": "index.js",
     "scripts": {
-      "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
-      "start": "node backend/server.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
+        "build": "cd backend && npm install  && cd ../frontend && npm install && npm run build",
+        "start": "node backend/server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/basir/mern-amazona.git"
+        "type": "git",
+        "url": "git+https://github.com/basir/mern-amazona.git"
     },
     "author": "",
     "license": "ISC",
     "bugs": {
-      "url": "https://github.com/basir/mern-amazona/issues"
+        "url": "https://github.com/basir/mern-amazona/issues"
     },
-    "homepage": "https://github.com/basir/mern-amazona#readme"
-  }
+    "homepage": "https://github.com/basir/mern-amazona#readme",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "dotenv": "^16.0.1",
+        "express-async-handler": "^1.2.0",
+        "jsonwebtoken": "^8.5.1",
+        "mongoose": "^6.5.1"
+    }
+}
